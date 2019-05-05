@@ -4,4 +4,4 @@ COPY target/blog-demo-0.0.1-SNAPSHOT.jar /app/
 
 EXPOSE 8090
 
-CMD java -jar /app/blog-demo-0.0.1-SNAPSHOT.jar 
+CMD java -jar /app/blog-demo-0.0.1-SNAPSHOT.jar --spring.profiles.active=prod
